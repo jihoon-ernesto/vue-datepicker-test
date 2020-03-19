@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <VCalDatePicker></VCalDatePicker>
+    <CtkDateTimePicker></CtkDateTimePicker>
   </div>
 </template>
 
 <script>
 import VCalDatePicker from './components/VCalDatePicker.vue';
+import CtkDateTimePicker from './components/CtkDateTimePicker.vue';
 
 export default {
   name: 'App',
   components: {
     VCalDatePicker,
+    CtkDateTimePicker,
   }
 }
 </script>
