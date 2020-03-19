@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
     "v-calendar": "^1.0.1",
     "vue": "^2.6.11",
-    "vue-ctk-date-time-picker": "^2.4.0"
+    "vue-ctk-date-time-picker": "^2.4.0",
+    "vue-functional-calendar": "^2.8.61"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
