@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>FunctionalCalendar test</p>
     <FunctionalCalendar
       v-model='calendarData'
       :configs='calendarConfigs'

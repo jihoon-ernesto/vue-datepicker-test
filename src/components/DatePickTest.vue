@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>DatePick test</p>
     <date-pick id='start-date' class='date-pick'
       v-model='startDate'
       :startWeekOnSunday='true'

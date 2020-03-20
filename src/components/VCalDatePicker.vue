@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>V-Calendar Date Picker test</p>
     <v-date-picker
       v-model='dateRange'
       mode='range'

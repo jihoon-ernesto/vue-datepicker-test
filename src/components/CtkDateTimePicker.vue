@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>CtkDateTimePicker test</p>
     <VueCtkDateTimePicker
       v-model='date'
       :range='true'
@@ -9,7 +8,6 @@
       formatted='L'
       outputFormat='YYYY-MM-DD'
       />
-
   </div>
 </template>
 
