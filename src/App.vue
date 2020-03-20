@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <VCalDatePicker></VCalDatePicker>
+    <!-- <VCalDatePicker></VCalDatePicker> -->
     <CtkDateTimePicker></CtkDateTimePicker>
-    <FunctionalCal></FunctionalCal>
+    <!-- <FunctionalCal></FunctionalCal> -->
     <date-pick-test/>
   </div>
 </template>
 
 <script>
-import VCalDatePicker from './components/VCalDatePicker.vue';
+// import VCalDatePicker from './components/VCalDatePicker.vue';
 import CtkDateTimePicker from './components/CtkDateTimePicker.vue';
-import FunctionalCal from './components/FunctionalCal.vue';
+// import FunctionalCal from './components/FunctionalCal.vue';
 import DatePickTest from './components/DatePickTest.vue';
 
 export default {
   name: 'App',
   components: {
-    VCalDatePicker,
+    // VCalDatePicker,
     CtkDateTimePicker,
-    FunctionalCal,
+    // FunctionalCal,
     DatePickTest,
   }
 }

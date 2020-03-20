@@ -1,10 +1,14 @@
 <template>
   <div>
     <p>DatePick test</p>
-    <date-pick
-      v-model='date'
+    <date-pick id='start-date' class='date-pick'
+      v-model='startDate'
       :startWeekOnSunday='true'
-    ></date-pick>
+    />
+    <date-pick id='end-date' class='date-pick'
+      v-model='endDate'
+      :startWeekOnSunday='true'
+    />
   </div>
 </template>
 
@@ -21,13 +25,24 @@ export default {
   },
   data() {
     return {
-      date: '2020-03-20',
+      startDate: '2020-03-20',
+      endDate: '2020-03-31',
     };
+  },
+  watch: {
+    startDate(date) {
+      console.log(`new startDate: ${date}`);
+    },
+    endDate(date) {
+      console.log(`new endDate: ${date}`);
+    },
   },
 }
 </script>
 
 <style>
+
+/* ref) https://dbrekalo.github.io/vue-date-pick/customizing-appearance.html */
 .vdpArrowPrev:after {
     border-right-color: #cc99cd;
 }
@@ -49,6 +64,30 @@ export default {
 .vdpTimeUnit > input:hover,
 .vdpTimeUnit > input:focus {
     border-bottom-color: #cc99cd;
+}
+
+/*
+  the styles below are from:
+  https://dbrekalo.github.io/vue-date-pick/examples.html#calendar-widget
+*/
+.date-pick {
+  margin:0 0 20px;
+}
+.date-pick > input {
+  font-size:16px;
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  padding:15px;
+  padding-right:40px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  border-radius:4px;
+  background:transparent;
+  border:1px solid #e0e0e0;
+  box-shadow:0 .1em .3em rgba(0,0,0,.05);
+  outline:0
 }
 
 </style>
