@@ -3,6 +3,7 @@
     <VCalDatePicker></VCalDatePicker>
     <CtkDateTimePicker></CtkDateTimePicker>
     <FunctionalCal></FunctionalCal>
+    <date-pick-test/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import VCalDatePicker from './components/VCalDatePicker.vue';
 import CtkDateTimePicker from './components/CtkDateTimePicker.vue';
 import FunctionalCal from './components/FunctionalCal.vue';
+import DatePickTest from './components/DatePickTest.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     VCalDatePicker,
     CtkDateTimePicker,
     FunctionalCal,
+    DatePickTest,
   }
 }
 </script>
