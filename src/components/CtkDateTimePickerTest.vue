@@ -1,13 +1,13 @@
 <template>
   <div>
-    <VueCtkDateTimePicker
+    <vue-ctk-date-time-picker
       v-model='date'
       :range='true'
       :only-date='true'
       format='YYYY-MM-DD'
       formatted='L'
       outputFormat='YYYY-MM-DD'
-      />
+    />
   </div>
 </template>
 

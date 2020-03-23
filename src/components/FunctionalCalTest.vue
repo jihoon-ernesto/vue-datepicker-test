@@ -1,9 +1,9 @@
 <template>
   <div>
-    <FunctionalCalendar
+    <functional-calendar
       v-model='calendarData'
       :configs='calendarConfigs'
-    ></FunctionalCalendar>
+    />
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import { FunctionalCalendar } from 'vue-functional-calendar';
 
 export default {
-  name: 'FunctionalCal',
+  name: 'FunctionalCalTest',
   props: {
   },
   components: {

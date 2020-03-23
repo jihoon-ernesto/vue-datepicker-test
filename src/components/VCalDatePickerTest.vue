@@ -12,7 +12,7 @@
 import DatePicker from 'v-calendar/lib/components/date-picker.umd'
 
 export default {
-  name: 'VCalDatePicker',
+  name: 'VCalDatePickerTest',
   props: {
     initDate: String
   },

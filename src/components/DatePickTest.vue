@@ -43,26 +43,25 @@ export default {
 
 /* ref) https://dbrekalo.github.io/vue-date-pick/customizing-appearance.html */
 .vdpArrowPrev:after {
-    border-right-color: #cc99cd;
+  border-right-color: #cc99cd;
 }
 
 .vdpArrowNext:after {
-    border-left-color: #cc99cd;
+  border-left-color: #cc99cd;
 }
 
 .vdpCell.selectable:hover .vdpCellContent,
 .vdpCell.selected .vdpCellContent {
-    /* background: #cc99cd; */
-    background: lightgreen;
+  background: #cc99cd;
 }
 
 .vdpCell.today {
-    color: #cc99cd;
+  color: #cc99cd;
 }
 
 .vdpTimeUnit > input:hover,
 .vdpTimeUnit > input:focus {
-    border-bottom-color: #cc99cd;
+  border-bottom-color: #cc99cd;
 }
 
 /*
