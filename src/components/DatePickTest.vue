@@ -3,10 +3,12 @@
     <date-pick id='start-date' class='date-pick'
       v-model='startDate'
       :startWeekOnSunday='true'
+      :selectableYearRange='10'
     />
     <date-pick id='end-date' class='date-pick'
       v-model='endDate'
       :startWeekOnSunday='true'
+      :selectableYearRange='5'
     />
   </div>
 </template>
