@@ -8,18 +8,6 @@
     <v-cal-date-picker-test v-show='showVDatePicker'/>
 
     <div class='checker'>
-      <input type='checkbox' id='show-ctk-picker' v-model='showCtkPicker'/>
-      <label for='show-ctk-picker'>Show vue-ctk-date-time-picker test</label>
-    </div>
-    <ctk-date-time-picker-test v-show='showCtkPicker'/>
-
-    <div class='checker'>
-      <input type='checkbox' id='show-functional-cal' v-model='showFunctionalCal'/>
-      <label for='show-functional-cal'>Show vue-functional-calendar test</label>
-    </div>
-    <functional-cal-test v-show='showFunctionalCal'/>
-
-    <div class='checker'>
       <input type='checkbox' id='show-date-pick' v-model='showDatePick'/>
       <label for='show-date-pick'>Show vue-date-pick test</label>
     </div>
@@ -34,23 +22,17 @@
 
 <script>
 import VCalDatePickerTest from './components/VCalDatePickerTest.vue';
-import CtkDateTimePickerTest from './components/CtkDateTimePickerTest.vue';
-import FunctionalCalTest from './components/FunctionalCalTest.vue';
 import DatePickTest from './components/DatePickTest.vue';
 
 export default {
   name: 'App',
   components: {
     VCalDatePickerTest,
-    CtkDateTimePickerTest,
-    FunctionalCalTest,
     DatePickTest,
   },
   data() {
     return {
       showVDatePicker: false,
-      showCtkPicker: false,
-      showFunctionalCal: false,
       showDatePick: false,
     };
   },
