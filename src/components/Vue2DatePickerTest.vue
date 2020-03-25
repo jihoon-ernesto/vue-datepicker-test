@@ -1,6 +1,11 @@
 <template>
   <div>
-    <date-picker v-model="dateRange" range></date-picker>
+    <date-picker
+      range
+      range-separator=" - "
+      :confirm="true"
+      v-model="dateRange"
+      ></date-picker>
   </div>
 </template>
 

@@ -3,6 +3,7 @@
     <v-date-picker
       v-model='dateRange'
       mode='range'
+      color='orange'
       :masks='masks'
       />
   </div>
