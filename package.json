@@ -15,7 +15,8 @@
     "vue": "^2.6.11",
     "vue-ctk-date-time-picker": "^2.4.0",
     "vue-date-pick": "^1.2.1",
-    "vue-functional-calendar": "^2.8.61"
+    "vue-functional-calendar": "^2.8.61",
+    "vue2-datepicker": "^3.4.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
