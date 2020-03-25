@@ -23,5 +23,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+$today-color: orange;
+
+@import '~vue2-datepicker/scss/index.scss';
 </style>

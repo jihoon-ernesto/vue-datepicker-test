@@ -41,29 +41,30 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+$themeColor: #cc99cd;
 
 /* ref) https://dbrekalo.github.io/vue-date-pick/customizing-appearance.html */
 .vdpArrowPrev:after {
-  border-right-color: #cc99cd;
+  border-right-color: $themeColor;
 }
 
 .vdpArrowNext:after {
-  border-left-color: #cc99cd;
+  border-left-color: $themeColor;
 }
 
 .vdpCell.selectable:hover .vdpCellContent,
 .vdpCell.selected .vdpCellContent {
-  background: #cc99cd;
+  background: $themeColor;
 }
 
 .vdpCell.today {
-  color: #cc99cd;
+  color: $themeColor;
 }
 
 .vdpTimeUnit > input:hover,
 .vdpTimeUnit > input:focus {
-  border-bottom-color: #cc99cd;
+  border-bottom-color: $themeColor;
 }
 
 /*
